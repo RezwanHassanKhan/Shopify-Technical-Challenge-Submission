@@ -1,4 +1,4 @@
-# Shopify-Technical-Challenge-Submission-
+# Shopify-Technical-Challenge-Submission
 
 **Summer 2022 Data Science Intern Challenge 
 
