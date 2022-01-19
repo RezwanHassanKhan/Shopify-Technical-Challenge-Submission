@@ -34,7 +34,7 @@ LEFT JOIN Orders \
 ON Employees.EmployeeID = Orders.EmployeeID\
 GROUP BY Employees.EmployeeID\
 ORDER BY most_no_of_orders DESC\
-LIMIT 1\
+LIMIT 1
 
 c.	What product was ordered the most by customers in Germany?\
 Answer: “Boston Crab Meat” (Total Item of 60)\
@@ -50,4 +50,4 @@ ON Orders.CustomerID = Customers.CustomerID\
 WHERE Customers.Country = "Germany"\
 GROUP BY Products.ProductName\
 ORDER BY Total_ITEM DESC\
-LIMIT 1\
+LIMIT 1
